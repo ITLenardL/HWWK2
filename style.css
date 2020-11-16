@@ -1,0 +1,81 @@
+/**
+ * Media Query Style Exercise: Solved;
+ **/
+
+ * {
+    box-sizing: border-box;
+}
+
+
+body {
+    /* Typography */
+    font-size: 18px;
+    line-height: 27px;
+    background-color: lightgrey;
+}
+
+/*
+    The width of the wrapper will be 768px
+    at browser widths above 768px
+  */
+.wrapper {
+    /* Positioning */
+    margin: 40px auto;
+    border: 2px;
+    padding-left: 30px;
+
+}
+
+#main-content,
+#sidebar {
+    /* Box-model */
+    width: 768px;
+    padding: 30px;
+    /* Positioning */
+    float: left;
+
+    /* Visual */
+    background: #eee;
+}
+
+
+@media screen and (max-width: 980px) {
+.wrapper {
+/* Box-model */
+    padding: 20px;
+}
+
+#main-content, #sidebar {
+    width: 100%;
+}
+}
+
+  /* Additional Screen Sizes */
+
+  /* Width at 768px and below */
+@media screen and (max-width: 768px) {
+.wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+}
+
+#main-content, #sidebar {
+    width: 100%;
+}
+}
+
+  /* Additional Screen Sizes */
+
+  /* Width at 640px and below */
+@media screen and (max-width: 640px) {
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+    
+    #main-content, #sidebar {
+        width: 100%;
+    }
+}
