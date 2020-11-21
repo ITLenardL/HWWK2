@@ -10,10 +10,14 @@ The aim is to create a portfolio with a navigation bar linking all the pages tog
 <br>portfolio - this page was to feature works that had previously been done in a gallery style format.
 <br>contact - this is a proforma contact page which was able to be filled in and had buttons that interact.
 These 3 pages were to be done in using bootstrap html and having our own stylesheet css for any additional editing we would like to add.
+Tasked to make all pages using grid bootstrap system to allow for viewing on both smaller devices as well as medium sized.
 
 # Problems
 Issues I ran into were learning what commands bootstrap had in its library and how they were to be written. There was many hours spent copying a template of code and just destroying it bit by bit to work out what different pieces did. That said, some formatting was unable to be made exactly like the examples given and will require further knowledge or research.
+<br><br>
+Other issues were making sure the grid formatting was able to stack in smaller viewing and show the way it is expected without hiding any content or losing any.
 
-Structure:
-    <br>Html files index, portfolio & contact in root folder
-    <br>Css style sheet located in root folder as well
+
+# Structure:
+<br>Html files index, portfolio & contact in root folder
+<br>Css style sheet located in root folder as well
