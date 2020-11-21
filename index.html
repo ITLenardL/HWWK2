@@ -10,38 +10,68 @@
 
 <!-- Bootstrap CDN -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
+<!-- <link rel="stylesheet" href="style.css"> -->
 
 </head>
 
 <body>
 <!-- Start Nav -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1">Navbar</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item">
-        <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-    </ul>
-    </div>
-</nav>
-<!-- End Nav -->
-<div class="wrapper">
+<header>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
     <div class="row">
-    
+        <div class="col-sm-12 col-md-4">
+            <a class="navbar-brand" href="index.html">LenardL</a>
+        </div>
+        <div class="col-sm-12 col-md-8">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+            <a class="nav-link" href="index.html">About me</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            </ul>
+        </div>
     </div>
-</div>
+    </nav>
+</header>
+<!-- End Nav -->
+
+<main class="wrapper">
+        <div class="row">
+          <div class="col-xs-12 col-md-10">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+              <div class="card-body">
+                <h1 class="card-title">About me</h1>
+                <hr>
+                <img class="img-thumbnail about-image" src="https://via.placeholder.com/200x150" alt="Placeholder" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae est semper, egestas dui tempor,
+                  faucibus massa. Integer dapibus, nibh a pretium commodo, odio odio consectetur lectus, et facilisis arcu
+                  lectus quis neque. In porttitor accumsan vulputate. Donec eu felis eget elit pellentesque scelerisque.
+                  Morbi ut sem ultricies, tempor velit id, tempor libero. Interdum et malesuada fames ac ante ipsum primis
+                  in faucibus. Nullam bibendum elit in dignissim lacinia. Nulla elit mauris, sagittis non sollicitudin
+                  ullamcorper, vulputate consequat nibh. Curabitur eget lacus a nulla dignissim scelerisque. Integer id
+                  massa nec enim ullamcorper pulvinar faucibus eget dolor.
+                </p>
+                <p>
+                  Aenean euismod ex eu tellus congue aliquet nec nec quam. In at est consectetur, aliquet diam non, volutpat
+                  urna. Vestibulum aliquet dignissim lectus ut consequat. Aenean vitae tortor in nisl ultrices finibus ac
+                  eget justo. Quisque ut ipsum aliquam, consequat dolor sit amet, tincidunt ex. Nulla viverra fermentum
+                  lacinia. Proin in consequat lorem. Vestibulum egestas id tortor vel rhoncus. Ut placerat consequat orci,
+                  ac hendrerit erat suscipit nec. Sed sit amet ligula in mauris lobortis rutrum in quis eros. Morbi commodo
+                  interdum felis. Suspendisse maximus cursus pretium. Sed quis malesuada eros. Vivamus in elementum nibh.
+                  Nulla nisl erat, mollis id tempus in, lobortis sed massa. Aliquam feugiat tincidunt pellentesque.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+</main>
+
 
 <!-- jQuery CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

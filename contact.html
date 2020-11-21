@@ -10,55 +10,64 @@
 
 <!-- Bootstrap CDN -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
+<!-- <link rel="stylesheet" href="style.css"> -->
 
 </head>
 
 <body>
 <!-- Start Nav -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1">Navbar</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-    <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item">
-        <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-    </ul>
+<header>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+            <a class="navbar-brand" href="index.html">LenardL</a>
+        </div>
+        <div class="col-sm-12 col-md-8">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">About me</a>
+            </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            </ul>
+        </div>
     </div>
-</nav>
+    </nav>
+</header>
 <!-- End Nav -->
 
 
-<div class="wrapper">
+<main class="wrapper">
     <section id="main-content">
-    <form action="/action_page.php">
-        <h1>Contact</h1>
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" class="form-control" placeholder="John Smith" id="name">
+        <div class="row">
+            <div class="col-xs-12 col-md-10">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <div class="card-body">
+                <h1 class="card-title">Contact</h1>
+                <hr>
+                <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" placeholder="John Smith" id="name">
+                </div>
+                <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" placeholder="example@gmail.com" id="email">
+                </div>
+                <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" rows="5" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="email">Email address</label>
-            <input type="email" class="form-control" placeholder="example@gmail.com" id="email">
-        </div>
-        <div class="form-group">
-            <label for="message">Message</label>
-            <textarea class="form-control" rows="5" id="message"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-    </section>
-</div>
+</section>
+</main>
 
 
 

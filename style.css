@@ -23,7 +23,16 @@ body {
     margin: 40px auto;
     border: 2px;
     padding: 30px;
+}
 
+.navbar-header{
+    border-style: inset;
+    border-color: lightcoral;
+    background-color:aquamarine;
+    text-align: left;
+    padding: 20px;
+    border-width: 3px;
+    align-items: flex-start;
 }
 
 #main-content,
@@ -48,20 +57,20 @@ body {
 }
 
 @media screen and (max-width: 980px) {
-.wrapper {
-/* Box-model */
-    padding: 20px;
+    .wrapper {
+    /* Box-model */
+        padding: 20px;
 }
-}
+    
 
   /* Additional Screen Sizes */
 
   /* Width at 768px and below */
 @media screen and (max-width: 768px) {
-.wrapper {
-    /* Box-model */
-    width: 100%;
-    padding: 20px;
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
 }
 }
 
@@ -73,5 +82,15 @@ body {
         /* Box-model */
         width: 100%;
         padding: 20px;
+}
+    .navbar-header {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+}
+    .navbar-nav {
+        width: 100%;
+        justify-content: center;
+
 }
 }
